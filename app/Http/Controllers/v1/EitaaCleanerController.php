@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Validator;
 class EitaaCleanerController extends Controller
 {
     public function showMyAd() {
-        return DefJson::success();
+        return ["url" => "https://www.alirezasn80.ir/ad.png"];
     }
 
 }
