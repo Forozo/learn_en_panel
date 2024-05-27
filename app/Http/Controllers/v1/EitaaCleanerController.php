@@ -12,7 +12,10 @@ use Illuminate\Support\Facades\Validator;
 class EitaaCleanerController extends Controller
 {
     public function showMyAd() {
-        return ["url" => "https://www.alirezasn80.ir/ad.png"];
+        return [
+            "ad" => "https://www.alirezasn80.ir/ad.png",
+            "link" => "https://cafebazaar.ir/app/com.alirezasn80.learn_en"
+        ];
     }
 
 }
